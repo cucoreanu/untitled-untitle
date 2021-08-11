@@ -1,0 +1,21 @@
+.user {
+  background-color: #b1b1b1;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  .img {
+    border-radius: 10000px;
+    width: 40px;
+    height: 40px;
+    background-color: green;
+  }
+
+  .detail {
+    div {
+      padding: 5px;
+    }
+  }
+
+}

@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  app-user-container {
+    width: 30%;
+  }
+
+  .user-detail {
+    width: 70%;
+  }
+}

@@ -1,0 +1,9 @@
+<div class="container">
+  <app-user-container (userSelect)="selectedUser = $event"></app-user-container>
+  <div class="user-detail">
+    <app-user-post *ngIf="selectedUser" [userId]="selectedUser">
+
+    </app-user-post>
+  </div>
+
+</div>
